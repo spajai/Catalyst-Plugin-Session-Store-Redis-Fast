@@ -1,0 +1,4 @@
+Revision history for Catalyst-Plugin-Session-Store-Redis-Fast
+
+1.000   02-Jul-2021
+        First version Catalyst::Plugin::Session::Store::Redis::Fast
