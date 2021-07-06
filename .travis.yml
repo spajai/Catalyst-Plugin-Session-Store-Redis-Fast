@@ -21,7 +21,3 @@ branches:
 notifications:
   recipients:
     - spajai@cpan.com
-
-email:
-    on_success: change
-    on_failure: always
