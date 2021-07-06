@@ -1,5 +1,8 @@
 Catalyst-Plugin-Session-Store-Redis-Fast
 
+
+[![Build Status](https://travis-ci.org/spajai/Catalyst-Plugin-Session-Store-Redis-Fast.svg?branch=master)](https://travis-ci.org/spajai/Catalyst-Plugin-Session-Store-Redis-Fast)
+
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
 example C compilers and installed libraries) and any other information
@@ -45,8 +48,6 @@ You can also look for information at:
 
 LICENSE AND COPYRIGHT
 
-LICENSE AND COPYRIGHT
-
-This software is copyright (c) 2020 by sushrut pajai.
+This software is copyright (c) 2021 by sushrut pajai.
 
 This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language system itself.
