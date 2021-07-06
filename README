@@ -1,7 +1,7 @@
 Catalyst-Plugin-Session-Store-Redis-Fast
 
 
-[![Build Status](https://travis-ci.org/spajai/Catalyst-Plugin-Session-Store-Redis-Fast.svg?branch=master)](https://travis-ci.org/spajai/Catalyst-Plugin-Session-Store-Redis-Fast)
+[![Build Status](https://www.travis-ci.com/spajai/Catalyst-Plugin-Session-Store-Redis-Fast.svg?branch=main)](https://www.travis-ci.com/spajai/Catalyst-Plugin-Session-Store-Redis-Fast)
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
