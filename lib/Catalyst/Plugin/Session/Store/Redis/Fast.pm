@@ -43,7 +43,7 @@ sub store_session_data {
 
     my $time = int($c->session_expires - time);
     if($time == 0) {
-        $c->log->error("skipping $key already expired at " . $c->session_expires );
+        $c->log->warn("skipping $key already expired at " . $c->session_expires );
     } else {
         if(my ($sid) = $key =~ /^expires:(.*)/) {
             $c->log->debug("Setting expires key for '$sid: $data' expiry seconds ($time)");
@@ -104,7 +104,7 @@ sub _verify_redis_connection {
  
 =head1 NAME
 
-    Catalyst::Plugin::Session::Store::Redis::Fast - The great new Catalyst::Plugin::Session::Store::Redis::Fast!
+    Catalyst::Plugin::Session::Store::Redis::Fast - Catalyst session store Redis Fast Plugin
     works with redis 2.0.0 and above
     Redis::Fast is 50% faster than Redis.pm
 

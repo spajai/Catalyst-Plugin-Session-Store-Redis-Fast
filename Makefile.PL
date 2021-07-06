@@ -7,7 +7,7 @@ my %WriteMakefileArgs = (
     NAME             => 'Catalyst::Plugin::Session::Store::Redis::Fast',
     AUTHOR           => q{Sushrut Pajai <spajai@cpan.org>},
     VERSION_FROM     => 'lib/Catalyst/Plugin/Session/Store/Redis/Fast.pm',
-    ABSTRACT_FROM    => 'lib/Catalyst/Plugin/Session/Store/Redis/Fast.pm',
+    ABSTRACT         => 'lib/Catalyst/Plugin/Session/Store/Redis/Fast.pm',
     LICENSE          => 'perl_5',
     MIN_PERL_VERSION => '5.006',
     CONFIGURE_REQUIRES => {
@@ -50,7 +50,6 @@ my %WriteMakefileArgs = (
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Catalyst-Plugin-Session-Store-Redis-Fast-*' },
-    RECURSIVE_TEST_FILES => 1,
 );
 
 # Compatibility with old versions of ExtUtils::MakeMaker
