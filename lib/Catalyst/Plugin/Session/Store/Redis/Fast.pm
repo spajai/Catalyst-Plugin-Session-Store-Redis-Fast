@@ -1,6 +1,6 @@
 package Catalyst::Plugin::Session::Store::Redis::Fast;
 
-our $VERSION = '1.000'; # VERSION
+our $VERSION = '1.001'; # VERSION
 
 use warnings;
 use strict;
@@ -234,7 +234,7 @@ You can find documentation for this module with the perldoc command.
 
 You can also look for information at:
 
-=over 4
+=over 6
 
 =item * RT: CPAN's request tracker (report bugs here)
 
@@ -252,6 +252,16 @@ L<https://cpanratings.perl.org/d/Catalyst-Plugin-Session-Store-Redis-Fast>
 
 L<https://metacpan.org/release/Catalyst-Plugin-Session-Store-Redis-Fast>
 
+=item * github source code
+
+L<https://github.com/spajai/Catalyst-Plugin-Session-Store-Redis-Fast>
+
+
+=item * pull request
+
+L<https://github.com/spajai/Catalyst-Plugin-Session-Store-Redis-Fast/pulls>
+
+
 =back
 
 
@@ -260,10 +270,8 @@ L<https://metacpan.org/release/Catalyst-Plugin-Session-Store-Redis-Fast>
 
 =head1 LICENSE AND COPYRIGHT
 
-This software is Copyright (c) 2021 by Sushrut Pajai.
+This software is copyright (c) 2021 by Sushrut Pajai
 
-This is free software, licensed under:
-
-  The Artistic License 2.0 (GPL Compatible)
+This is free software; you can redistribute it and/or modify it under the same terms as the Perl 5 programming language itself.
 
 =cut
